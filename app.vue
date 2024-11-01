@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <HeaderComponent></HeaderComponent>
+  <NuxtPage/>
+  
 </template>
+
+<style>
+  @import url(~/assets/style.css);
+</style>

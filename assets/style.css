@@ -1,0 +1,9 @@
+body {
+    background-image: url(img/aboutPhoto-1024x1024.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    max-width: 100%;
+}
