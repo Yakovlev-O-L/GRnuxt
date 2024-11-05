@@ -1,16 +1,21 @@
 <template>
-<header>
+    <header>
         <h1>Мороженое и заморозка</h1>
         <div class="flex menu">
-            <div :class="route.path=='/'?'current':''"> <NuxtLink href="/">главная</NuxtLink> </div>
-            <div :class="route.path=='/product'?'current':''"> <NuxtLink href="/product">продукты</NuxtLink>
+            <div :class="route.path == '/' ? 'current' : ''">
+                <NuxtLink href="/">главная</NuxtLink>
             </div>
-            <div :class="route.path=='/about'?'current':''"> <NuxtLink href="/about">о компании</NuxtLink>
+            <div :class="route.path == '/product' ? 'current' : ''">
+                <NuxtLink href="/product">продукты</NuxtLink>
             </div>
-            <div :class="route.path=='/feedback'?'current':''"> <NuxtLink href="/feedback">обратная связь</NuxtLink> </div>
+            <div :class="route.path == '/about' ? 'current' : ''">
+                <NuxtLink href="/about">о компании</NuxtLink>
+            </div>
+            <div :class="route.path == '/feedback' ? 'current' : ''">
+                <NuxtLink href="/feedback">обратная связь</NuxtLink>
+            </div>
         </div>
     </header>
-
 </template>
 
 <script setup lang="ts">
@@ -20,13 +25,12 @@ const route = useRoute()
 
 <style scoped>
 .center {
-            position: absolute;
-            top: 50%;
-            left: 45%;
-        }    
-        
-        .current {
-            background-color: darkturquoise;
-            border-radius: 5px;
-        }
-</style>
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.current {
+    background-color: darkturquoise;
+    border-radius: 5px;
+}</style>
