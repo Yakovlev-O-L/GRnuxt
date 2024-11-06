@@ -24,6 +24,19 @@ const route = useRoute()
 </script>
 
 <style scoped>
+.menu {
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.menu div {
+    padding: 10px;
+}
+
 .center {
     position: absolute;
     top: 50%;
@@ -33,4 +46,5 @@ const route = useRoute()
 .current {
     background-color: darkturquoise;
     border-radius: 5px;
-}</style>
+}
+</style>

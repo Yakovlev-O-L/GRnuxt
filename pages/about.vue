@@ -45,6 +45,12 @@
 </template>
 
 <style scoped>
+
+body {
+            background-image: url(img/aboutPhoto-1024x1024.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
 .about {
     text-align: justify;
     position: relative;
