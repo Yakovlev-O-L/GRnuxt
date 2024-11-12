@@ -1,5 +1,5 @@
 body {
-    background-image: url(/img/aboutPhoto-1024x1024.jpg);       
+    background-color: rgb(29, 203, 209);       
     background-attachment: fixed;
     background-size: cover;
 }
@@ -7,6 +7,7 @@ body {
 main {
     max-width: 100%;
 }
+
 
 .flex {
     display: flex;

@@ -1,5 +1,6 @@
 <template>
     <div class="feedback"></div>    
+    
 </template>
 
 <style scoped>

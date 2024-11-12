@@ -28,7 +28,7 @@ const route = useRoute()
     gap: 20px;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: white;
     text-transform: uppercase;
     border-radius: 5px;
 }
