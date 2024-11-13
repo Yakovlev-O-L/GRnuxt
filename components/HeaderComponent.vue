@@ -24,11 +24,24 @@ const route = useRoute()
 </script>
 
 <style scoped>
+
+header {
+    background-color: rgb(100, 163, 245);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;    
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+}
 .menu {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color:rgb(100, 163, 245);
     text-transform: uppercase;
     border-radius: 5px;
 }

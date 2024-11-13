@@ -1,12 +1,10 @@
 body {
-    background-color: rgb(29, 203, 209);       
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: rgb(210, 247, 248);    
 }
 
-main {
+/* main {
     max-width: 100%;
-}
+} */
 
 
 .flex {
