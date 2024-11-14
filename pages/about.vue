@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="about">
+        <div class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatibus dicta hic explicabo sequi, qui
             accusamus cupiditate,
             eligendi aspernatur error quo ipsum nam natus maxime sit neque sint ad iure. Lorem ipsum dolor sit amet
@@ -86,13 +86,13 @@
 <style scoped>
 
 
-.about {
+/* .about {
     text-align: justify;
     position: relative;
     margin: 0 auto;
     font-size: larger;
     max-width: 800px;
-}
+} */
 
 .current {
     background-color: darkturquoise;

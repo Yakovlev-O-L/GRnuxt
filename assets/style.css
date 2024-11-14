@@ -1,12 +1,37 @@
 body {
-    background-color: rgb(210, 247, 248);    
+    background-color: rgb(210, 247, 248);
+    margin-top: 118px; 
 }
 
 /* main {
     max-width: 100%;
 } */
 
+figure {
+    background-color: rgba(72, 209, 205, 0.671);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
 
 .flex {
     display: flex;
+}
+
+.flexImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;       
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+.text {
+    text-align: justify;
+    position: relative;
+    margin: 0 auto;
+    font-size: larger;
+    max-width: 1200px;
 }

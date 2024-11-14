@@ -36,7 +36,7 @@ header {
 
 h1 {
     text-align: center;
-}
+}   
 .menu {
     gap: 20px;
     justify-content: center;
@@ -59,5 +59,10 @@ h1 {
 .current {
     background-color: darkturquoise;
     border-radius: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 </style>
