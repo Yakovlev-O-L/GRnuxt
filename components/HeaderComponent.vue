@@ -6,7 +6,7 @@
                 <NuxtLink href="/">главная</NuxtLink>
             </div>
             <div :class="route.path == '/product' ? 'current' : ''">
-                <NuxtLink href="/product">продукты</NuxtLink>
+                <NuxtLink href="/product">продукция</NuxtLink>
             </div>
             <div :class="route.path == '/about' ? 'current' : ''">
                 <NuxtLink href="/about">о компании</NuxtLink>
