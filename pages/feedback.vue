@@ -1,20 +1,15 @@
 <template>
-    <div class="feedback"></div>    
-    
+    <div class="feedback">
+        
+    </div>
 </template>
 
 <style scoped>
-.feedback {
-    background-image: url(/img/feedbackGirls.jpg);
+.feedback {    
     text-align: justify;
     position: relative;
     margin: 0 auto;
     font-size: larger;
-    max-width: 800px;
+    max-width: 1200px;
 }
-
-.current {
-    
-    background-color: darkturquoise;
-    border-radius: 5px;
-}</style>
+</style>

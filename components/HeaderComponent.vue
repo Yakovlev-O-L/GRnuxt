@@ -36,7 +36,9 @@ header {
 
 h1 {
     text-align: center;
-}   
+    font-size: xx-large;
+    font-weight: bold;
+}  
 .menu {
     gap: 20px;
     justify-content: center;
