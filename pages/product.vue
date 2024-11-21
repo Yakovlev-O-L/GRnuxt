@@ -64,6 +64,70 @@
             <NuxtImg src="img\clavica\karamelka-258x258.jpg.jpg" sizes="258px" />
             <figcaption>Вафельный стакан "Карамелька" <br> 80гр</figcaption>
         </figure>
+        <figure>
+            <NuxtImg src="img\clavica\klubnichka-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Вафельный стакан "Клубничка" <br> 80гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\Krazy_Kola_70-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Фруктовый лёд "Crazy Kola" <br> 70гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\Krazy_Kola_85-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Фруктовый лёд "Crazy Kola" <br> 85гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\Mark_55-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Эскимо "MARK" <br> 55гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\Mark_Apelsin_Apelsin_55-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Эскимо "MARK" Апельсин <br> 55гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\Mark_Kivi_Kivi_55-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Эскимо "MARK" Киви <br> 55гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\nastroenie_120_chernosliv-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Стакан "Настроение" Чернослив <br> 120гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\nastroenie_120_klubnika-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Стакан "Настроение" Клубника <br> 120гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\NASTROYeNIYe_brusnika-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Косичка "Настроение" Брусника <br> 500гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\NASTROYeNIYe_kivi-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Косичка "Настроение" Киви <br> 500гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\NASTROYeNIYe_klubnika-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Косичка "Настроение" Клубника <br> 500гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\NASTROYeNIYe_mango-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Косичка "Настроение" Манго <br> 500гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\NASTROYeNIYe_sgushchenka1-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Косичка "Настроение" Сгущёнка <br> 500гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\NASTROYeNIYe_tryufel-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Косичка "Настроение" Трюфель <br> 500гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\Obamka_60-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Эскимо "Обамка" <br> 60гр</figcaption>
+        </figure>
+        <figure>
+            <NuxtImg src="img\clavica\Okean_70-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Фруктовый лёд "Океан" <br> 70гр</figcaption>
+        </figure>
 
     </div>
 </template>

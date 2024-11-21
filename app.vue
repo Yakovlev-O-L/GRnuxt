@@ -1,6 +1,7 @@
 <template>
   <HeaderComponent></HeaderComponent>
   <NuxtPage/>
+  <FooterComponent></FooterComponent>
   
 </template>
 

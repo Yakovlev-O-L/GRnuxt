@@ -15,6 +15,9 @@
                 <NuxtLink href="/feedback">обратная связь</NuxtLink>
             </div>
         </div>
+        <div class="logo">
+            <NuxtImg src="img\fb.png"/>
+        </div>
     </header>
 </template>
 
@@ -26,7 +29,7 @@ const route = useRoute()
 <style scoped>
 
 header {
-    background-color: rgb(100, 163, 245);
+    background-color: rgb(1 160 226);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -38,12 +41,25 @@ h1 {
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
-}  
+} 
+ 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    justify-content: left;
+    background-color:rgb(1 160 226);
+    position: fixed;
+    top: 15px;
+    left: 15px;    
+}
 .menu {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    background-color:rgb(100, 163, 245);
+    background-color:rgb(1 160 226);
     text-transform: uppercase;
     border-radius: 5px;
 }
@@ -63,8 +79,5 @@ h1 {
     border-radius: 5px;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
+
 </style>
