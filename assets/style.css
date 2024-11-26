@@ -16,6 +16,9 @@ figure {
     max-width: 270px;
 }
 
+a:hover {
+    text-decoration: underline;    }
+
 .flex {
     display: flex;
 }
@@ -35,5 +38,5 @@ figure {
     position: relative;
     margin: 0 auto;
     font-size: larger;
-    max-width: 1200px;
+    max-width: 65%;
 }
