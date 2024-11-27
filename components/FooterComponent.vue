@@ -6,13 +6,13 @@
                     <a href="#">Home</a>
                     <a href="#">About</a>
                     <a href="#">Gallery</a>
-                    <a href="#">News</a><br>
+                    <a href="#">News</a>
                 </div>
                 <div class="flex2">
                     <a href="#">Blog</a>
                     <a href="#">FAQ</a>
                     <a href="#">Contacts</a>
-                    <a href="#">Privasy & Cookies</a><br>
+                    <a href="#">Privasy & Cookies</a>                    
                 </div>
                 <div class="flex3">
                     <NuxtImg src="img/fb.png" sizes="40px" />
@@ -27,28 +27,14 @@
 </template>
 
 <style scoped>
+
 footer {
-    background-color: rgb(1 160 226);
-    /* justify-content: center; */
+    background-color: rgb(1 160 226);    
     text-align: center;
-    max-width: 100%;
-    height: 120px;
-    bottom: 0px;
-    /*left: 0px;
-    right: 0px; */
+    padding: 0, 20px;
+    max-width: 100%;    
+    bottom: 0px;    
 }
-
-/* div {
-    padding: 60px;
-    max-width: 900px;
-    margin: 0 auto;
-    color: white;
-    text-align: center;
-} */
-
-/* div div {
-    padding: 0;
-} */
 
 a {
     color: black;
@@ -79,7 +65,7 @@ img {
 }
 
 img:hover {
-    filter: grayscale(0);}
-
+    filter: grayscale(0);
+}
 
 </style>
