@@ -6,6 +6,11 @@
             <figcaption>{{ product.title }} <br> {{ product.price }}</figcaption>
         </figure>
 
+        <figure v-for="product of productsStore.arr" :key="product.id">
+            <NuxtImg preload :src="product.images[1]" sizes="258px" />
+            <figcaption>{{ product.title }} <br> {{ product.price }}</figcaption>
+        </figure>
+
 
         <figure>
             <NuxtImg preload src="img\clavica\Советский_коса_пломб-258x258.jpg.jpg" sizes="258px" />
@@ -160,6 +165,11 @@
         <figure>
             <NuxtImg src="img\clavica\Obamka_60-258x258.jpg.jpg" sizes="258px" />
             <figcaption>Эскимо "Обамка" <br> 60гр</figcaption>
+        </figure>
+
+        <figure>
+            <NuxtImg src="img\clavica\Okean_70-258x258.jpg.jpg" sizes="258px" />
+            <figcaption>Фруктовый лёд "Океан" <br> 70гр</figcaption>
         </figure>
 
         <figure>
