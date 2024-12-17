@@ -16,7 +16,8 @@
             </div>
         </div>
         <div class="logo">
-            <NuxtImg src="img\fb.png"/>
+            МорозЪ
+            <NuxtImg src="img\fb.png" sizes="100px"/>
         </div>
     </header>
 </template>
@@ -31,6 +32,7 @@ const route = useRoute()
 header {
     background-color: rgb(1 160 226);
     position: fixed;
+    height: 120px;
     top: 0px;
     left: 0px;
     right: 0px;    
