@@ -7,12 +7,12 @@ export const useProducts = defineStore('products', () => {
     {id:1, title:'Косичка "Советский" пломбир', type:'icecream',
       description:'Сливочный пломбир крем-брюле в форме косички, в экономичной упаковке',
       form: 'kosichka', weight:'500гр', inbox: '8шт', price:200, compound: 'белки, жиры и углеводы',
-      images:['img/morozhenoe/clavica/Советский_коса_пломб-258x258.jpg.jpg']},
+      images:['img/morozhenoe/clavica/sovetskij_kosa_plombir_258x258.jpg.jpg']},
     
     {id:2, title:'Косичка "Советский" шоколад', type:'icecream',
       description:'Шоколадный пломбир в форме косички, в экономичной упаковке',
       form: 'kosichka', weight:'500гр', inbox: '8шт', price:200, compound: 'белки, жиры и углеводы',
-      images:['img/morozhenoe/clavica/Советский_коса_шок-258x258.jpg.jpg'],},
+      images:['img/morozhenoe/clavica/sovetskij_kosa_shokolad_258x258.jpg.jpg'],},
     
     {id:3, title:'Рожок "Американец"', type:'icecream',
       description:'Двухслойное, клубничное и ванильное мороженое с клубничным джемом в сахарном рожке',
@@ -47,7 +47,7 @@ export const useProducts = defineStore('products', () => {
     {id:9, title:'Стакан вафельный "Берёзка"', type:'icecream',
       description:'Мороженое в вафельном стаканчике',
       form: 'vafelniy stakan', weight:'70гр', inbox: '27шт', price:30, compound: 'белки, жиры и углеводы',
-      images:['img/morozhenoe/clavica/Berezka_70-258x258.jpg.jpg'],},
+      images:['img/morozhenoe/stakanchiki/Berezka_70-258x258.jpg.jpg'],},
 
     {id:10, title:'Стакан бумажный "Лимон"', type:'icecream',
       description:'Лимонный десерт в бумажном стаканчике',
@@ -297,7 +297,7 @@ export const useProducts = defineStore('products', () => {
     {id:59, title:'Стакан вафельный "Шоколадка"', type:'icecream',
       description:'Мороженое в вафельном стаканчике',
       form: 'vafelniy stakan', weight:'70гр', inbox: '27шт', price:20, compound: 'белки, жиры и углеводы',
-      images:['img/morozhenoe/clavica/Shokoladka_70-258x258.jpg.jpg'],},
+      images:['img/morozhenoe/stakanchiki/Shokoladka_70-258x258.jpg.jpg'],},
 
     {id:60, title:'Эскимо "Сырное"', type:'icecream',
       description:'Сырное мороженое на палочке',
