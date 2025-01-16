@@ -1,22 +1,14 @@
 <template>
-    <div class="flexImg">
-
-        <figure v-for="product of productsStore.arr" :key="product.id">
-            <NuxtImg preload :src="product.images[0]" sizes="258px" />
-            <figcaption>{{ product.title }} <br> {{ product.price }}</figcaption>
-        </figure>        
-
+    <div :class="route.path == '/iceCream' ? 'current' : ''">
+        <NuxtLink href="/iceCream">Мороженое</NuxtLink>
     </div>
-</template>
+    <div :class="route.path == '/freezing' ? 'current' : ''">
+        <NuxtLink href="/freezing">Заморозка</NuxtLink>
+    </div>
+</template>    
 
 <script setup lang="ts">
-import { useProducts } from '~/stores/products';
 
-const productsStore = useProducts()
+    const route = useRoute()
+
 </script>
-
-<style scoped>
-img {
-    border-radius: 5px;
-}
-</style>
