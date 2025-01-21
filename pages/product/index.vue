@@ -1,14 +1,14 @@
 <template>
-    <div :class="route.path == '/iceCream' ? 'current' : ''">
-        <NuxtLink href="/iceCream">Мороженое</NuxtLink>
+    <div>
+        <NuxtLink to="/product/icecream">Мороженое</NuxtLink>
     </div>
-    <div :class="route.path == '/freezing' ? 'current' : ''">
-        <NuxtLink href="/freezing">Заморозка</NuxtLink>
+    <div>
+        <NuxtLink to="/product/freezing">Заморозка</NuxtLink>
     </div>
 </template>    
 
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 
     const route = useRoute()
 
-</script>
+</script> -->
