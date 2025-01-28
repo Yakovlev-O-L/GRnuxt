@@ -299,11 +299,70 @@ export const useProducts = defineStore('products', () => {
       form: 'eskimo', weight:'65гр', inbox: '20шт', price:20, compound: 'белки, жиры и углеводы',
       images:['img/morozhenoe/slavica/Sirnoe_65-258x258.jpg'],},
 
-    {id:59, title:'Эскимо "Сырное"', title_path:'Sirnoe_65', type:'icecream',
-      manufacture: 'slavica', description:'Сырное мороженое на палочке',
-      form: 'eskimo', weight:'65гр', inbox: '20шт', price:20, compound: 'белки, жиры и углеводы',
-      images:['img/morozhenoe/slavica/Sirnoe_65-258x258.jpg'],}
-  ])
+
+
+
+
+    {id:60, title:'Блинчики без начинки "Гурман"', title_path:'blinchiki_bez_nachinki_Gurman_3kg', type:'freezing',
+      manufacture: 'gurman', description:'Блинчики без начинки',
+      form: 'bliny', weight:'3kg', inbox: '3кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/bliny/blinchiki_bez_nachinki_Gurman_3kg.png'],},      
+      
+    {id:61, title:'Блинчики с клубникой "Домашние"', title_path:'blinchiki_s_klubnikoy_Domashnie_5kg', type:'freezing',
+      manufacture: 'public/img/zamorozka/bliny', description:'Блинчики с клубникой',
+      form: 'bliny', weight:'5кг', inbox: '5кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/bliny/blinchiki_s_klubnikoy_Domashnie_5kg.png'],},      
+      
+    {id:62, title:'Блинчики с мясом "Домашние"', title_path:'blinchiki_s_myasom_Domashnie_5kg', type:'freezing',
+      manufacture: 'public/img/zamorozka/bliny', description:'Блинчики с мясом',
+      form: 'bliny', weight:'5кг', inbox: '5кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/bliny/blinchiki_s_myasom_Domashnie_5kg.png'],},      
+      
+    {id:63, title:'Блинчики с творогом "Домашние"', title_path:'blinchiki_s_tvorogom_Domashnie_5kg', type:'freezing',
+      manufacture: 'public/img/zamorozka/bliny', description:'Блинчики с ворогом',
+      form: 'bliny', weight:'5кг', inbox: '5кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/bliny/blinchiki_s_tvorogom_Domashnie_5kg.png'],},      
+      
+    {id:64, title:'Блинчики с вишней "Домашние"', title_path:'blinchiki_s_vishney_Domashnie_5kg', type:'freezing',
+      manufacture: 'public/img/zamorozka/bliny', description:'Блинчики с вишней',
+      form: 'bliny', weight:'5кг', inbox: '5кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/bliny/blinchiki_s_vishney_Domashnie_5kg.png'],},      
+      
+    {id:65, title:'Булочка для гамбургера черная', title_path:'bulochka_dlya_gamburgera_chernaya', type:'freezing',
+      manufacture: 'credo', description:'Булочка для гамбургера черная',
+      form: 'bulochka', weight:'гр', inbox: 'кг', price:120, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/credo/bulochka_dlya_gamburgera_chernaya.jpg'],},      
+    
+    {id:66, title:'Булочка для гамбургера с кунжутом', title_path:'bulochka_dlya_gamburgera_s_kunzhutom', type:'freezing',
+      manufacture: 'credo', description:'Булочка для гамбургера с кунжутом',
+      form: 'bulochka', weight:'гр', inbox: 'кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/credo/bulochka_dlya_gamburgera_chernaya.jpg'],},      
+    
+    {id:67, title:'Булочка для хотдога черная', title_path:'bulochka_dlya_hotdoga_chernaya', type:'freezing',
+      manufacture: 'credo', description:'Булочка для хотдога черная',
+      form: 'bulochka', weight:'гр', inbox: 'кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/credo/bulochka_dlya_hotdoga_chernaya.jpg'],},      
+    
+    {id:69, title:'Чизкейк черная смородина', title_path:'chizkeyk_chernaya_smorodina', type:'freezing',
+      manufacture: 'credo', description:'Чизкейк черная смородина',
+      form: 'chizkeyk', weight:'гр', inbox: 'кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/credo/chizkeyk_chernaya_smorodina.jpg'],},      
+    
+    {id:70, title:'Чизкейк Нью-Йорк', title_path:'chizkeyk_nyuyork', type:'freezing',
+      manufacture: 'credo', description:'Чизкейк Нью-Йорк',
+      form: 'chizkeyk', weight:'гр', inbox: 'кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/credo/chizkeyk_nyuyork.jpg'],},
+
+    {id:71, title:'Чизкейк шоколадный', title_path:'chizkeyk_shokoladniy', type:'freezing',
+      manufacture: 'credo', description:'Чизкейк шоколадный',
+      form: 'chizkeyk', weight:'гр', inbox: 'кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/credo/chizkeyk_shokoladniy.jpg'],},      
+
+    {id:72, title:'Чизкейк вишневый', title_path:'chizkeyk_vishneviy', type:'freezing',
+      manufacture: 'credo', description:'Чизкейк вишневый',
+      form: 'chizkeyk', weight:'гр', inbox: 'кг', price:150, compound: 'белки, жиры и углеводы',
+      images:['img/zamorozka/credo/chizkeyk_vishneviy.jpg'],},      
+    ])
 
   return { arr }
 })

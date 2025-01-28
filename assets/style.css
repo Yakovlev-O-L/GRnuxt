@@ -11,9 +11,9 @@ body {
 figure {
     background-color: rgba(72, 209, 205, 0.671);
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
-    max-width: 270px;
+    max-width: 270px;    
 }
 
 a:hover {
