@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(210, 247, 248);
+    background-color: rgb(210, 247, 248) !important;
     margin-top: 118px;
     overflow-y: scroll;
 }
