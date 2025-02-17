@@ -1,23 +1,26 @@
 <template>
     <header>
         <h1>Мороженое и заморозка</h1>
-        <div class="flex menu">
-            <div :class="route.path == '/' ? 'current' : ''">
-                <NuxtLink href="/">главная</NuxtLink>
-            </div>
-            <div :class="route.path == '/product' ? 'current' : ''">
-                <NuxtLink href="/product">продукция</NuxtLink>
-            </div>
-            <div :class="route.path == '/about' ? 'current' : ''">
-                <NuxtLink href="/about">о компании</NuxtLink>
-            </div>
-            <div :class="route.path == '/feedback' ? 'current' : ''">
-                <NuxtLink href="/feedback">обратная связь</NuxtLink>
-            </div>
-        </div>
         <div class="logo">
             МорозЪ
             <NuxtImg src="img\fb.png" sizes="100px"/>
+        </div>
+        <div class="flex menu">
+            <div :class="route.path == '/' ? 'current' : ''">
+                <NuxtLink to="/">главная</NuxtLink>
+            </div>
+            <div :class="route.path == '/product' ? 'current' : ''">
+                <NuxtLink to="/product">продукция</NuxtLink>
+            </div>
+            <div :class="route.path == '/about' ? 'current' : ''">
+                <NuxtLink to="/about">о компании</NuxtLink>
+            </div>
+            <div :class="route.path == '/feedback' ? 'current' : ''">
+                <NuxtLink to="/feedback">обратная связь</NuxtLink>
+            </div>
+        </div>
+        <div class="lk">
+            <NuxtLink>Вход</NuxtLink>
         </div>
     </header>
 </template>
@@ -54,6 +57,13 @@ a {
 
 .logo {
     justify-content: left;
+    background-color:rgb(1 160 226);
+    position: fixed;
+    top: 15px;
+    left: 15px;    
+}
+.lk {
+    justify-content: right;
     background-color:rgb(1 160 226);
     position: fixed;
     top: 15px;
