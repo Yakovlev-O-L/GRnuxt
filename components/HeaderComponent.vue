@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="lk">
-            <NuxtLink>Вход</NuxtLink>
+            <NuxtLink><NuxtImg src="img\login.jpg" sizes="50px"/>Личный<br>кабинет</NuxtLink>
         </div>
     </header>
 </template>
@@ -55,19 +55,17 @@ a {
 
 
 
-.logo {
-    justify-content: left;
+.logo {   
     background-color:rgb(1 160 226);
     position: fixed;
     top: 15px;
     left: 15px;    
 }
-.lk {
-    justify-content: right;
+.lk {    
     background-color:rgb(1 160 226);
     position: fixed;
     top: 15px;
-    left: 15px;    
+    right: 15px;    
 }
 .menu {
     gap: 20px;
