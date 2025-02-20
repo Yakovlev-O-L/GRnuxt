@@ -2,7 +2,7 @@
     <div class="flexImg">
 
         <figure v-for="product of productsStore.arr" :key="product.id">
-            <NuxtImg preload :src="product.images[0]" sizes="258px" />
+            <NuxtImg :src="product.images[0]"/>
             <figcaption>{{ product.title }} <br> {{ product.price }}</figcaption>
         </figure>        
 

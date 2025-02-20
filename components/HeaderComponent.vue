@@ -3,7 +3,7 @@
         <h1>Мороженое и заморозка</h1>
         <div class="logo">
             МорозЪ
-            <NuxtImg src="img\fb.png" sizes="100px"/>
+            <NuxtImg src="img\fb.png" width="64px"/>
         </div>
         <div class="flex menu">
             <div :class="route.path == '/' ? 'current' : ''">
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="lk">
-            <NuxtLink><NuxtImg src="img\login.jpg" sizes="50px"/>Личный<br>кабинет</NuxtLink>
+            <NuxtLink><NuxtImg src="img\login.jpg" width="50px"/>Личный<br>кабинет</NuxtLink>
         </div>
     </header>
 </template>

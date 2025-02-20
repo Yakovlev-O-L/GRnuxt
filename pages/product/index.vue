@@ -1,17 +1,17 @@
 <template>
     <div class="thisFlex">
         <figure>
-            <NuxtLink to="/product/icecream"><NuxtImg src="/img/iceCream.jpg" sizes="600px" /></NuxtLink>
+            <NuxtLink to="/product/icecream"><NuxtImg src="/img/iceCream.jpg" width="600px" />
             <figcaption>
                 Мороженое
-            </figcaption>
+            </figcaption></NuxtLink>
         </figure>
 
         <figure>
-            <NuxtLink to="/product/freezing"><NuxtImg src="/img/frozenFood.jpg" sizes="600px" /></NuxtLink>
+            <NuxtLink to="/product/freezing"><NuxtImg src="/img/frozenFood1.png" width="600px" />
             <figcaption>
                 Заморозка
-            </figcaption>
+            </figcaption></NuxtLink>
         </figure>
     </div>
 </template>

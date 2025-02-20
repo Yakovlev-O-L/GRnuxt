@@ -6,8 +6,8 @@
     <div class="flexImg">
 
         <figure v-for="product of products" :key="product.id">
-            <NuxtImg preload :src="product.images[0]" sizes="258px" />
-            <figcaption><NuxtLink :to="`/product/${product.type}/${product.title}`">{{ product.title }}</NuxtLink> <br> {{ product.price }}</figcaption>
+            <NuxtLink :to="`/product/${product.type}/${product.title}`"><NuxtImg :src="product.images[0]" width="250px"/>
+            <figcaption>{{ product.title }} <br> {{ product.price }}</figcaption></NuxtLink>
         </figure>        
 
     </div>
